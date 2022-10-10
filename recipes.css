@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 main{
@@ -9,6 +12,7 @@ main{
 
 footer{
     padding: 24px 0px;
+    flex-shrink: 0;
 }
 
 img{
@@ -18,4 +22,8 @@ img{
 nav{
     border-bottom: 1px black;
     padding: 16px;
+}
+
+a:hover{
+    color: green;
 }
