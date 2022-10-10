@@ -24,6 +24,10 @@ nav{
     padding: 16px;
 }
 
+a{
+    text-decoration: none;
+}
+
 a:hover{
     color: green;
 }
